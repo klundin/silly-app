@@ -32,7 +32,7 @@ gem 'jbuilder', '~> 1.2'
 
 #add in rspec libraries
 gem 'selenium-webdriver','2.35.1'
-gem 'capybara', '2.1.0'
+gem 'capybara'
 
 
 group :doc do
