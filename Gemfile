@@ -34,6 +34,8 @@ gem 'jbuilder', '~> 1.2'
 gem 'selenium-webdriver','2.35.1'
 gem 'capybara'
 
+# Use Twitter bootstrap
+gem 'sass-twitter-bootstrap-rails','~>1.0'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

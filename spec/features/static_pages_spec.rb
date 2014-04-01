@@ -5,7 +5,7 @@ feature 'Home page Layout' do
    visit '/static_pages/home'
    
    expect(page).to have_content('Catalog')
-   expect(page).to have_title("Home")
+   expect(page).to have_title('Home')
    expect(page).to have_content('ClickFuel')
 
   end

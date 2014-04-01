@@ -1,9 +1,9 @@
 --- 
 cursor_positions: 
-  - :path: static_pages_spec.rb
-    :cursor_offset: 523
-    :timestamp: 2014-03-31 20:49:38.468000 -04:00
   - :path: visitor_signs_up_spec.rb
-    :cursor_offset: 367
-    :timestamp: 2014-03-31 20:43:47.265000 -04:00
+    :cursor_offset: 634
+    :timestamp: 2014-03-31 21:04:21.750000 -04:00
+  - :path: static_pages_spec.rb
+    :cursor_offset: 490
+    :timestamp: 2014-03-31 22:12:13.218000 -04:00
 files_to_retain: 0
