@@ -9,4 +9,19 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
+require 'securerandom'
+
+def secure_token
+   token_file=Rails.root.join('.secret')
+   if File.exist?(token_file)
+     #use the existing token
+     File.read(token_file).chomp
+   else
+     #generate a new token and store it in the token_file
+     token= SecureRandom.hex(64)
+     File.write(token_file, token)
+     token
+   end
+end
+
 Fmi::Application.config.secret_key_base = 'd2451fc7152559d33586597e72d327f4aefddcc9506a061319e0cb3809a0485aa9e6ca74660f46f4da66ef089a4a8a8d912957c253baf24ffc5baf365663ea23'

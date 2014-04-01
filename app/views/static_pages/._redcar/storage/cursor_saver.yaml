@@ -1,0 +1,9 @@
+--- 
+cursor_positions: 
+  - :path: help.html.erb
+    :cursor_offset: 353
+    :timestamp: 2014-03-31 22:11:06.968000 -04:00
+  - :path: home.html.erb
+    :cursor_offset: 370
+    :timestamp: 2014-03-31 22:09:47.828000 -04:00
+files_to_retain: 0

@@ -21,11 +21,21 @@ gem 'coffee-rails', '~> 4.0.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
+# Use rspec for test
+gem 'rspec-rails', '2.13.1'
+
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
+
+#add in rspec libraries
+gem 'selenium-webdriver','2.35.1'
+gem 'capybara'
+
+# Use Twitter bootstrap
+gem 'sass-twitter-bootstrap-rails','~>1.0'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
