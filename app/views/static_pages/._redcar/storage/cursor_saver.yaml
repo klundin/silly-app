@@ -1,9 +1,9 @@
 --- 
 cursor_positions: 
   - :path: help.html.erb
-    :cursor_offset: 353
-    :timestamp: 2014-03-31 22:11:06.968000 -04:00
+    :cursor_offset: 231
+    :timestamp: 2014-03-31 22:17:15.218000 -04:00
   - :path: home.html.erb
-    :cursor_offset: 370
-    :timestamp: 2014-03-31 22:09:47.828000 -04:00
+    :cursor_offset: 358
+    :timestamp: 2014-04-01 10:32:02.671000 -04:00
 files_to_retain: 0

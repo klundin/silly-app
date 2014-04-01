@@ -1,7 +1,15 @@
 <% provide(:title, 'Vendor Catalog Home')%>
 
+<div class="center hero-unit">
 <h1> ClickFuel Vendor Catalog</h1>
-  <p>
-  This is where you will login to create your ClickFuel Vendor profile and add reviews to vendors with whom you are familiar
-  <br><a href="http://www.clickfuel.com"> ClickFuel</a>
-</p>
+
+  <h2>
+  
+    This is where you will login to create your ClickFuel Vendor profile and add reviews to vendors with whom you are familiar
+    <br><a href="http://www.clickfuel.com"> ClickFuel</a>
+  </h2>
+
+  <%= link_to "Sign  up now!", '/users/new',class: "btn btn-large btn-primary" %>
+</div>
+
+<% link_to image_tag("ClickFuel logo.png", alt: "ClickFuel"), 'http://www.clickfuel.com'%>
