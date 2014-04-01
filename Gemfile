@@ -36,7 +36,9 @@ gem 'capybara'
 
 # Use Twitter bootstrap
 gem 'sass-twitter-bootstrap-rails','~>1.0'
-
+group :assets do
+  gem 'bootstrap-sass'
+end
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
