@@ -21,7 +21,6 @@ module Fmi
     # config.i18n.default_locale = :de
     config.generators do |g|
     g.test_framework :rspec
-    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
     end
 
   end

@@ -27,8 +27,10 @@ GEM
       tzinfo (~> 0.3.37)
     arel (4.0.2)
     atomic (1.1.16)
-    bootstrap-sass (3.1.1.0)
+    bootstrap-sass (2.3.2.2)
       sass (~> 3.2)
+    bootswatch-rails (0.5.0)
+      railties (>= 3.1)
     builder (3.1.4)
     capybara (2.1.0)
       mime-types (>= 1.16)
@@ -150,7 +152,8 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  bootstrap-sass
+  bootstrap-sass (~> 2)
+  bootswatch-rails
   capybara
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)

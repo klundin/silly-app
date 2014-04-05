@@ -20,3 +20,20 @@ feature 'Help Page Layout' do
   
   end
 end
+feature 'Contact Page' do
+  scenario 'Contact page shows clickfuel' do
+    visit '/static_pages/contact'
+    expect(page).to have_content('ClickFuel')
+    expect(page).to have_content('suppor@clickfuel.com')
+  end
+
+  scenario 'Contact page shows mailto link' do
+    visit 'static_pages/contact'
+    expect(page).to have_content('support@clickfuel.com')
+  end
+
+  scenario 'Contact page shows nav bar' do
+    visit 'static_pages/contact'
+    expect(page).to have_content('Home')
+  end
+end

@@ -1,6 +1,10 @@
 Fmi::Application.routes.draw do
-  get "static_pages/home"
-  get "static_pages/help"
+  root 'static_pages#home'
+
+  get '/static_pages_help' => 'static_pages#help'
+  get '/static_pages_contact' => 'static_pages#contact'
+  get '/static_pages_home' => 'static_pages#home'
+
   resources :reviews
 
   resources :companies

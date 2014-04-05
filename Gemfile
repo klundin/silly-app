@@ -15,8 +15,6 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 
-# See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -34,11 +32,12 @@ gem 'jbuilder', '~> 1.2'
 gem 'selenium-webdriver','2.35.1'
 gem 'capybara'
 
-# Use Twitter bootstrap
+# Use Twitter bootstrap and bootswatch
+
 gem 'sass-twitter-bootstrap-rails','~>1.0'
-group :assets do
-  gem 'bootstrap-sass'
-end
+  gem 'bootstrap-sass', '~>2'
+  gem 'bootswatch-rails'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
